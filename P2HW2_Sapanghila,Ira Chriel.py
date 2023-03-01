@@ -1,0 +1,27 @@
+print('#CTI-110\n#P2HW1- Student Grade List\n#Sapanghila,Ira Chriel\n#March 9, 2023')
+print('')
+print('')
+print('')
+m1 = float(input('Enter grade for Module 1: '))
+m2 = float(input('Enter grade for Module 2: '))
+m3 = float(input('Enter grade for Module 3: '))
+m4 = float(input('Enter grade for Module 4: '))
+m5 = float(input('Enter grade for Module 5: '))
+m6 = float(input('Enter grade for Module 6: '))
+
+lowest_grade = min(m1, m2, m3, m4, m5, m6)
+highest_grade =max(m1, m2, m3, m4, m5, m6)
+sum_grade = (m1 + m2 + m3 + m4 + m5 + m6)
+average = (m1 + m2 + m3 + m4 + m5 + m6) /6
+print('')
+print('')
+print('------------Results-----------')
+print (f'Lowest Grade:         {lowest_grade}')
+print (f'Highest Grade:        {highest_grade}')
+print (f'Sum of Grades:        {sum_grade}')
+print (f'Average:              {average:.2f}')
+print('------------------------------')
+print('')
+input('press ENTER to exit')
+
+
